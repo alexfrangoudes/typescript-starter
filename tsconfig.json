@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./build/",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "noEmitOnError": true,
+    "declaration": false,
+    "typeRoots": ["node_modules/@types"],
+    "pretty": true
+  },
+  "exclude": [ "node_modules" ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "typescript-starter",
+  "version": "1.0.0",
+  "description": "Barebones NodeJs starter project usigng TypeScript",
+  "private": true,
+  "scripts": {
+    "run": "ts-node ./src/Main.ts",
+    "build": "tsc -p ./"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+
+    "ts-node": "latest",
+    "typescript": "latest",
+    "@types/node": "latest"
+
+  }
+}
